@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(202, 164, 115);
+
+}
+.section_1{
+    padding: 20px;
+    background-color: aqua;
+    width: 55%;
+    height: 50vh;
+    border-radius: 30px;
+}
+#feet{
+    height: 22px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-indent: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#inch{
+    height: 22px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-indent: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#kg{
+    height: 22px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-indent: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    height: 40px;
+    width: 15%;
+    border-radius: 25px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(15, 245, 115);
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(16, 223, 223);
+    transform: 0.1s;
+}
